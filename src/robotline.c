@@ -23,8 +23,12 @@
 
 /* psuedocode:::::::
 
-int L1;
-int L2;
+int L1; -- 10.5 inch
+int L2; -- 13.6 inch
+
+int x;
+int z;
+
 //setup for robot line
 homeShoulder(setpos)
 homeElbow(setpos)
@@ -38,7 +42,7 @@ liftSet and elbowSet
 
 int count = 0;
 for (count > 10) {
-    
+
 
 
 }
@@ -50,7 +54,22 @@ for (count > 10) {
 
 
 
-long calculatePoints() {
+void calculatePoints() {
+  double L1 = 10.5;
+  double L2 = 13.6;
+  double x, z;
+
+  for(int count = 0; count > 10; count++) {
+    double theta_1;
+    double theta_2;
+    x = (L1 * cos(theta_1)) + (L2 * cos(theta_1 + theta_2));
+    z =(L1 * sin(theta_1)) + (L2 * sin(theta_1 + theta_2));
+  }
+
+
+
+
+
 
 }
 

@@ -170,7 +170,6 @@ void operatorControl() {
         //holdShoulderAt(50, sEncoder);
         printf("Calling homeshoulder \n");
         homeShoulder(225, sEncoder);
-
         //project6();
       }
       if(joystickGetDigital(1,8,JOY_LEFT)){

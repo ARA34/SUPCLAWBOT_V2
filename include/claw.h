@@ -2,5 +2,5 @@
 #define CLAW_H
 
 #include "main.h"
-void clawSet(int speed);
+void clawSet(int speedVar);
 #endif
