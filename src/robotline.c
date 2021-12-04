@@ -1,5 +1,7 @@
 #include "main.h"
 #include "math.h"
+#include "homeshoulder.h"
+#include "home_elbow.h"
 
 /*void project6(int repetitions, Encoder shoulder_encoder, Encoder elbow_encoder) {
   printf("project6 starting");
@@ -58,6 +60,8 @@ void calculatePoints() {
   double L1 = 10.5;
   double L2 = 13.6;
   double x, z;
+
+  //home the shoulder and elbow first 
 
   for(int count = 0; count > 10; count++) {
     double theta_1;
