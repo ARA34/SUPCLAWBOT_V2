@@ -24,42 +24,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/auto.c.o",
-            "src\\auto.c"
+            "bin/claw.c.o",
+            "src\\claw.c"
         ],
         "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
-        "file": "src\\auto.c"
-    },
-    {
-        "arguments": [
-            "clang++",
-            "-c",
-            "-target",
-            "armv7ar-none-none-eabi",
-            "-fno-ms-extensions",
-            "-fno-ms-compatibility",
-            "-fno-delayed-template-parsing",
-            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include",
-            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
-            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
-            "-isystem./include",
-            "-iquote./include/./",
-            "-mthumb",
-            "-mcpu=cortex-m3",
-            "-mlittle-endian",
-            "-Os",
-            "-ffunction-sections",
-            "-fsigned-char",
-            "-fomit-frame-pointer",
-            "-fsingle-precision-constant",
-            "-fdiagnostics-color",
-            "-std=gnu99",
-            "-o",
-            "bin/robotline.c.o",
-            "src\\robotline.c"
-        ],
-        "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
-        "file": "src\\robotline.c"
+        "file": "src\\claw.c"
     },
     {
         "arguments": [
@@ -117,11 +86,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/LineFollow.c.o",
-            "src\\LineFollow.c"
+            "bin/robotline.c.o",
+            "src\\robotline.c"
         ],
         "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
-        "file": "src\\LineFollow.c"
+        "file": "src\\robotline.c"
     },
     {
         "arguments": [
@@ -148,42 +117,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/claw.c.o",
-            "src\\claw.c"
+            "bin/auto.c.o",
+            "src\\auto.c"
         ],
         "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
-        "file": "src\\claw.c"
-    },
-    {
-        "arguments": [
-            "clang++",
-            "-c",
-            "-target",
-            "armv7ar-none-none-eabi",
-            "-fno-ms-extensions",
-            "-fno-ms-compatibility",
-            "-fno-delayed-template-parsing",
-            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include",
-            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
-            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
-            "-isystem./include",
-            "-iquote./include/./",
-            "-mthumb",
-            "-mcpu=cortex-m3",
-            "-mlittle-endian",
-            "-Os",
-            "-ffunction-sections",
-            "-fsigned-char",
-            "-fomit-frame-pointer",
-            "-fsingle-precision-constant",
-            "-fdiagnostics-color",
-            "-std=gnu99",
-            "-o",
-            "bin/opcontrol.c.o",
-            "src\\opcontrol.c"
-        ],
-        "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
-        "file": "src\\opcontrol.c"
+        "file": "src\\auto.c"
     },
     {
         "arguments": [
@@ -241,11 +179,11 @@
             "-fdiagnostics-color",
             "-std=gnu99",
             "-o",
-            "bin/init.c.o",
-            "src\\init.c"
+            "bin/opcontrol.c.o",
+            "src\\opcontrol.c"
         ],
         "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
-        "file": "src\\init.c"
+        "file": "src\\opcontrol.c"
     },
     {
         "arguments": [
@@ -277,5 +215,67 @@
         ],
         "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
         "file": "src\\homeshoulder.c"
+    },
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-target",
+            "armv7ar-none-none-eabi",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include",
+            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
+            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
+            "-isystem./include",
+            "-iquote./include/./",
+            "-mthumb",
+            "-mcpu=cortex-m3",
+            "-mlittle-endian",
+            "-Os",
+            "-ffunction-sections",
+            "-fsigned-char",
+            "-fomit-frame-pointer",
+            "-fsingle-precision-constant",
+            "-fdiagnostics-color",
+            "-std=gnu99",
+            "-o",
+            "bin/init.c.o",
+            "src\\init.c"
+        ],
+        "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
+        "file": "src\\init.c"
+    },
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-target",
+            "armv7ar-none-none-eabi",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include",
+            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
+            "-isystemc:\\users\\papet\\appdata\\local\\programs\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
+            "-isystem./include",
+            "-iquote./include/./",
+            "-mthumb",
+            "-mcpu=cortex-m3",
+            "-mlittle-endian",
+            "-Os",
+            "-ffunction-sections",
+            "-fsigned-char",
+            "-fomit-frame-pointer",
+            "-fsingle-precision-constant",
+            "-fdiagnostics-color",
+            "-std=gnu99",
+            "-o",
+            "bin/LineFollow.c.o",
+            "src\\LineFollow.c"
+        ],
+        "directory": "C:\\Users\\papet\\Desktop\\SUPCLAW_TEST",
+        "file": "src\\LineFollow.c"
     }
 ]

@@ -57,7 +57,7 @@ SHOULDER = 4
  void holdShoulderAt(int targetPos, Encoder shoulderEncoder) { //target degree
    //Encoder shoulderEncoder;
    //shoulderEncoder = encoderInit(QUAD_TOP_PORT, QUAD_BOTTOM_PORT, false);
-   int Kp = 2;
+   int Kp = 1;
    int maxp = 127;
    int error;
    int output;
